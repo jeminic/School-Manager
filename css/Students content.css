@@ -1,0 +1,77 @@
+.content-area {
+    /* Margin-left: 250px; */
+    padding-top: 20px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.user-details {
+    background: white;
+    width: auto;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 30px;
+    box-shadow: 0px 4px 38.27px 4.73px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+}
+
+.user-details table {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.user-details table td {
+    padding: 10px;
+}
+
+.main-title {
+    font-size: 12px;
+    font-weight: 200;
+    color: #9d9d9d;
+    margin-right: 10px;
+}
+
+.info-details {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.student-img {
+    background: url(img\avatar04.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #131940;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    float: right;
+}
+
+.button {
+    margin-top: 70px;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #03a0e4;
+    transition: all 0.3s ease-in-out;
+    font-weight: 700;
+    color: white;
+}
+
+.button:hover {
+    background-color: #131940;
+    color: white;
+    font-weight: 700;
+}
+
+.button:active {
+    background-color: #131940;
+    color: white;
+    font-weight: 700;
+}
