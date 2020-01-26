@@ -230,23 +230,25 @@
             box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
             background: url(../img/nigerian-student.jpg) no-repeat;
             background-size: cover;
+            vertical-align: bottom;
         }
         
         .login-form-1 h1 {
             text-align: left;
             color: #333;
-            margin-top: 60%;
-            /* margin-left: 5%; */
+            bottom: 8%;
+            left: 5%;
             font-weight: 700;
-            vertical-align: text-bottom;
+            position: absolute;
         }
         
         .login-form-1 p {
             text-align: left;
             color: #333;
-            /* margin-left: 5%; */
+            bottom: 0;
+            left: 5%;
             font-size: 25px;
-            vertical-align: text-bottom;
+            position: absolute;
         }
         
         .login-form-2 {
@@ -290,15 +292,11 @@
         .bg-overlay {
             background: linear-gradient(rgba(19, 1, 39, 0.849), rgba(10, 1, 34, 0.774)), url("../img/college-students.jpg");
             background-repeat: no-repeat;
-            background-size: 100%;
-            background-position: center center;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
             background-size: cover;
-            position: fixed;
+            background-position: 100% top;
+            background-attachment: fixed;
+            height: 100vh;
             width: 100%;
-            height: 100%;
         }
         
         @media only screen and (max-width: 768px) {
@@ -314,4 +312,11 @@
             margin-right: auto;
             margin-bottom: 15px;
             margin-top: 20px;
+        }
+        
+        @media screen and (max-width: 900px) and (min-width: 100px) {
+            .login-form-2 {
+                margin-left: 5%;
+                margin-right: 5%;
+            }
         }
