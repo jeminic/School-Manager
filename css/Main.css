@@ -226,7 +226,7 @@
         }
         
         .login-form-1 {
-            padding: 5%;
+            padding: 2%;
             box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
             background: url(../img/nigerian-student.jpg) no-repeat;
             background-size: cover;
@@ -235,20 +235,22 @@
         .login-form-1 h1 {
             text-align: left;
             color: #333;
-            margin-top: 60%;
-            margin-left: 5%;
+            margin-top: 90%;
+            /* margin-left: 5%; */
             font-weight: 700;
+            vertical-align: text-bottom;
         }
         
         .login-form-1 p {
             text-align: left;
             color: #333;
-            margin-left: 5%;
-            font-size: 20px;
+            /* margin-left: 5%; */
+            font-size: 25px;
+            vertical-align: text-bottom;
         }
         
         .login-form-2 {
-            padding: 5%;
+            padding: 2%;
             background-color: #131940;
             box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
         }
@@ -300,7 +302,14 @@
         
         .login-form-2 .img {
             width: 80px;
-            margin-left: 142px;
-            margin-bottom: 20px;
-            border-radius: 50%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 15px;
+            margin-top: 20px;
         }
+        /* @media only screen and (max-width: 768px) {
+            .login-form-2 {
+                height: 500px;
+            }
+        } */
