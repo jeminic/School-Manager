@@ -317,13 +317,4 @@
             margin-top: 20px;
         }
         
-        @media (min-width: 768px) {
-            .login-form-2 {
-                height: 100%;
-                position: relative;
-                margin-bottom: auto;
-            }
-            .login-form-1 {
-                display: none;
-            }
-        }
+        @media (min-width: 768px) {}
